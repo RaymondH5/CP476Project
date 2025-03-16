@@ -1,0 +1,404 @@
+[15-Mar-2025 22:18:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:27
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php(27): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'mydb')
+#1 D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php(11): require('D:\\Winter2024\\C...')
+#2 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 27
+[16-Mar-2025 04:19:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:71
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\register.php(61): registerUser('raymondharing_', 'hari5580@mylaur...', '$2y$10$1pB8KM7n...', 'Raymond', 'Haring')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 71
+[16-Mar-2025 04:20:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:71
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\register.php(61): registerUser('raymondharing_', 'hari5580@mylaur...', '$2y$10$GwiZgH2D...', 'Raymond', 'Haring')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 71
+[16-Mar-2025 04:20:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:71
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\register.php(61): registerUser('raymondharing', 'hari5580@mylaur...', '$2y$10$XxVUcyI5...', 'Raymond', 'Haring')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 71
+[16-Mar-2025 04:21:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:71
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\register.php(61): registerUser('raymondharing', 'hari5580@mylaur...', '$2y$10$KAWtsJta...', 'Raymond', 'Haring')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 71
+[16-Mar-2025 04:23:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:71
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\register.php(61): registerUser('raymondharing', 'hari5580@mylaur...', '$2y$10$897oaZNb...', 'Raymond', 'Haring')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 71
+[16-Mar-2025 04:24:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:71
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\register.php(61): registerUser('raymondharing_', 'hari5580@mylaur...', '$2y$10$k0uPLSZK...', 'Raymond', 'Haring')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 71
+[16-Mar-2025 04:28:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:71
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\register.php(61): registerUser('raymondharing_', 'hari5580@mylaur...', '$2y$10$HPDdkLEo...', 'Raymond', 'Haring')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 71
+[16-Mar-2025 04:29:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:71
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\register.php(61): registerUser('raymondharing_', 'hari5580@mylaur...', '$2y$10$4V2TD1O1...', 'Raymond', 'Haring')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 71
+[16-Mar-2025 04:44:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:43
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php(56): getUsersInfo('raymondharing_')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 43
+[16-Mar-2025 05:20:53 UTC] PHP Parse error:  syntax error, unexpected token "include" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 6
+[16-Mar-2025 05:20:58 UTC] PHP Parse error:  syntax error, unexpected token "include" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 6
+[16-Mar-2025 05:33:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'hari5580@mylaurier.ca' for key 'users.email' in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:81
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php(81): mysqli_stmt->execute()
+#1 D:\Winter2024\CP476\Apache24\phpfiles\Project\register.php(53): registerUser('RaymondH5', 'hari5580@mylaur...', '$2y$10$iYfQHDak...', 'Raymond', 'Haring')
+#2 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 81
+[16-Mar-2025 05:43:42 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:09 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:10 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:14 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:17 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:18 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:22 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:23 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:25 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:26 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:31 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:32 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:32 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:32 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:32 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:32 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:32 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:44:39 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 05:46:58 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 8
+[16-Mar-2025 06:09:41 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 17
+[16-Mar-2025 06:09:41 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 17
+[16-Mar-2025 06:09:41 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 18
+[16-Mar-2025 06:09:41 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 18
+[16-Mar-2025 06:09:41 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 19
+[16-Mar-2025 06:09:41 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 19
+[16-Mar-2025 06:09:41 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[16-Mar-2025 06:09:41 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[16-Mar-2025 06:10:29 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:10:29 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:10:29 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 15
+[16-Mar-2025 06:10:29 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 15
+[16-Mar-2025 06:10:29 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 16
+[16-Mar-2025 06:10:29 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 16
+[16-Mar-2025 06:10:29 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 17
+[16-Mar-2025 06:10:29 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 17
+[16-Mar-2025 06:10:29 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[16-Mar-2025 06:10:29 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[16-Mar-2025 06:13:28 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:13:28 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:13:32 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:13:32 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:14:52 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:14:52 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:17:19 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:17:19 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:17:43 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:17:43 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:17:43 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 17
+[16-Mar-2025 06:17:43 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 17
+[16-Mar-2025 06:17:43 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 18
+[16-Mar-2025 06:17:43 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 18
+[16-Mar-2025 06:17:43 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 19
+[16-Mar-2025 06:17:43 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 19
+[16-Mar-2025 06:17:43 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[16-Mar-2025 06:17:43 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[16-Mar-2025 06:25:11 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:25:11 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:25:26 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:25:26 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:25:26 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 17
+[16-Mar-2025 06:25:26 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 17
+[16-Mar-2025 06:25:26 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 18
+[16-Mar-2025 06:25:26 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 18
+[16-Mar-2025 06:25:26 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 19
+[16-Mar-2025 06:25:26 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 19
+[16-Mar-2025 06:25:26 UTC] PHP Warning:  Undefined global variable $_SESSION in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[16-Mar-2025 06:25:26 UTC] PHP Warning:  Trying to access array offset on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[16-Mar-2025 06:32:42 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:32:53 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:32:53 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 9
+[16-Mar-2025 06:32:53 UTC] PHP Warning:  Undefined array key "first_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 10
+[16-Mar-2025 06:32:53 UTC] PHP Warning:  Undefined array key "last_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 11
+[16-Mar-2025 06:32:53 UTC] PHP Warning:  Undefined array key "first_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[16-Mar-2025 06:36:41 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 3
+[16-Mar-2025 06:36:41 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 4
+[16-Mar-2025 06:36:41 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 5
+[16-Mar-2025 06:36:41 UTC] PHP Warning:  Undefined array key "first_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 6
+[16-Mar-2025 06:36:41 UTC] PHP Warning:  Undefined array key "last_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 7
+[16-Mar-2025 06:36:41 UTC] PHP Warning:  Undefined array key "user_id" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 18
+[16-Mar-2025 06:36:41 UTC] PHP Warning:  Undefined array key "first_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 19
+[16-Mar-2025 06:36:41 UTC] PHP Warning:  Undefined array key "last_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 20
+[16-Mar-2025 06:36:41 UTC] PHP Warning:  Undefined array key "first_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[16-Mar-2025 06:45:06 UTC] PHP Fatal error:  Uncaught TypeError: setcookie(): Argument #2 ($value) must be of type string, int given in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php:47
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php(47): setcookie('user_id', 1, 1742111106, '/')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 47
+[16-Mar-2025 06:46:02 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 47
+[16-Mar-2025 06:46:02 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 47
+[16-Mar-2025 06:46:02 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 48
+[16-Mar-2025 06:46:02 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 48
+[16-Mar-2025 06:47:01 UTC] PHP Parse error:  Unmatched ')' in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 5
+[16-Mar-2025 06:47:26 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 47
+[16-Mar-2025 06:47:26 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 47
+[16-Mar-2025 06:47:26 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 48
+[16-Mar-2025 06:47:26 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 48
+[16-Mar-2025 06:48:03 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 47
+[16-Mar-2025 06:48:03 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 47
+[16-Mar-2025 06:48:03 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 48
+[16-Mar-2025 06:48:03 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 48
+[16-Mar-2025 06:55:40 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 47
+[16-Mar-2025 06:55:40 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 47
+[16-Mar-2025 06:55:40 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 48
+[16-Mar-2025 06:55:40 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 48
+[16-Mar-2025 06:59:39 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 54
+[16-Mar-2025 06:59:39 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 54
+[16-Mar-2025 06:59:39 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 55
+[16-Mar-2025 06:59:39 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 55
+[16-Mar-2025 07:00:56 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 54
+[16-Mar-2025 07:00:56 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 54
+[16-Mar-2025 07:00:56 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 55
+[16-Mar-2025 07:00:56 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 55
+[16-Mar-2025 07:03:58 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 54
+[16-Mar-2025 07:03:58 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 54
+[16-Mar-2025 07:03:58 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 55
+[16-Mar-2025 07:03:58 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 55
+[16-Mar-2025 07:09:39 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 54
+[16-Mar-2025 07:09:39 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 54
+[16-Mar-2025 07:09:39 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 55
+[16-Mar-2025 07:09:39 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 55
+[16-Mar-2025 07:14:19 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 54
+[16-Mar-2025 07:14:19 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 54
+[16-Mar-2025 07:14:19 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 55
+[16-Mar-2025 07:14:19 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 55
+[16-Mar-2025 07:22:53 UTC] PHP Parse error:  syntax error, unexpected variable "$logged_in_options" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 47
+[16-Mar-2025 07:23:09 UTC] PHP Parse error:  syntax error, unexpected variable "$logged_in_options", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 47
+[16-Mar-2025 07:23:26 UTC] PHP Parse error:  syntax error, unexpected variable "$logged_in_options", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 47
+[16-Mar-2025 07:23:26 UTC] PHP Parse error:  syntax error, unexpected variable "$logged_in_options", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 47
+[16-Mar-2025 07:53:42 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 57
+[16-Mar-2025 07:53:42 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 57
+[16-Mar-2025 07:53:42 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 58
+[16-Mar-2025 07:53:42 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 58
+[16-Mar-2025 08:10:51 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 57
+[16-Mar-2025 08:10:51 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 57
+[16-Mar-2025 08:10:51 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 58
+[16-Mar-2025 08:10:51 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 58
+[16-Mar-2025 08:11:15 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 57
+[16-Mar-2025 08:11:15 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 57
+[16-Mar-2025 08:11:15 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 58
+[16-Mar-2025 08:11:15 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 58
+[16-Mar-2025 08:13:03 UTC] PHP Warning:  Undefined variable $title in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 24
+[16-Mar-2025 08:14:13 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[16-Mar-2025 08:14:13 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[16-Mar-2025 08:14:13 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[16-Mar-2025 08:14:13 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[16-Mar-2025 08:14:21 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[16-Mar-2025 08:14:21 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[16-Mar-2025 08:14:21 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[16-Mar-2025 08:14:21 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[16-Mar-2025 08:15:46 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[16-Mar-2025 08:15:46 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[16-Mar-2025 08:15:46 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[16-Mar-2025 08:15:46 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[16-Mar-2025 08:18:19 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[16-Mar-2025 08:18:19 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[16-Mar-2025 08:18:19 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[16-Mar-2025 08:18:19 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[16-Mar-2025 08:23:19 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[16-Mar-2025 08:23:19 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[16-Mar-2025 08:23:19 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[16-Mar-2025 08:23:19 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
