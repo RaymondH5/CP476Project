@@ -24,7 +24,8 @@ echo '
     <div class="full-screen-container hero">
         <div class="form-container">
             <form id="register_form" action="register.php" method="post">
-                <h1>Register</h1>
+                 <h1 style="color: black;">Register</h1>
+                <br>
                 <div class="input-group">
                     <input type="text" id="username" name="username" placeholder="Username" required>
                 </div>

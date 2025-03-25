@@ -3,8 +3,6 @@ declare(strict_types=1);
 
 require 'DAL.php';
 
-validateCookie();
-
 // Get course code from URL
 $courseCode = $_GET['code'] ?? '';
 if (empty($courseCode)) {

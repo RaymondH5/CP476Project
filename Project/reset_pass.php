@@ -3,15 +3,14 @@
 declare(strict_types=1);
 
 require 'DAL.php';
-validateCookie();
-
 include 'header.php';
 
 ?>
 <div class="full-screen-container hero">
     <div class="form-container">
         <form id="login_form" method="post">
-            <h1>Reset your password</h1>
+            <h1 style="color: black;">Reset your password</h1>
+            <br>
             <div class="input-group">
                 <input type="password" id="old_password" name="old_password" placeholder="Old password" required>
             </div>

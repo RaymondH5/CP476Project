@@ -2,7 +2,6 @@
 declare(strict_types=1);
 require 'header.php';
 require 'DAL.php'; 
-validateCookie();
 $classes = getAllClasses();
 ?>
 <section class="hero">

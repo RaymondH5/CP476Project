@@ -112,26 +112,6 @@ function getAllClasses(): array {
     return $classes;
 }
 
-function validateCookie(): bool {
-    if (!isset($_COOKIE['user_id']) || empty($_COOKIE['user_id'])) {
-        return header('Location: login.php');
-    }
-
-    $user_id = $_COOKIE['user_id'];
-    $conn = OpenConnection();
-    $stmt = $conn->prepare("SELECT * FROM users WHERE user_id = ?");
-    $stmt->bind_param("i", $user_id);
-    $stmt->execute();
-    $result = $stmt->get_result();
-
-    if ($result->num_rows === 0) {
-        echo "<script>alert('User not found. Please log in again.');</script>";
-        return false;
-    }
-    $stmt->close();
-    return true;
-}
-
 function resetPassword($newPassword, $id): bool {
     $hashedPassword = password_hash($newPassword, PASSWORD_DEFAULT);
     $conn = OpenConnection();

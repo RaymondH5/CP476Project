@@ -1,10 +1,10 @@
 <?php
 if (isset($_COOKIE['user'])) {
-    // Remove the cookies
-    setcookie('user', '', time() - 3600);
-    setcookie('id', '', time() - 3600);
-    setcookie('firstName', '', time() - 3600);
-    setcookie('lastName', '', time() - 3600);
+    setcookie('user_id', '', time() - 3600, '/'); 
+    setcookie('username', '', time() - 3600, '/');
+    setcookie('email', '', time() - 3600, '/');
+    setcookie('first_name', '', time() - 3600, '/');
+    setcookie('last_name', '', time() - 3600, '/');
 }
 
 require 'DAL.php';
@@ -30,7 +30,8 @@ echo '
     <div class="full-screen-container hero">
         <div class="form-container">
             <form id="login_form" method="post">
-                <h1>Login</h1>
+                <h1 style="color: black;">Login</h1>
+                <br>
                 <div class="input-group">
                     <input type="text" id="username" name="username" placeholder="Username" required>
                 </div>
