@@ -21,6 +21,11 @@ body, html {
     flex: 1;
 }
 
+.user-details {
+    font-weight: bold; /* Makes text bold */
+    color: orange; /* Ensures text is black */
+}
+
 footer {
     width: 100%;
     background-color: #111;
@@ -38,6 +43,7 @@ footer {
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
+    position: sticky; 
 }
 
 .logo a {
@@ -110,6 +116,19 @@ footer {
     background-color: #cc5200;
 }
 
+#searchCourses {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#courseDropdown {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 .social-icons .icon {
     margin-right: 10px;
@@ -192,6 +211,67 @@ p {
     text-align: center;
     font-size: 14px;
     color: #555; /* Lighter color for the text */
+}
+
+/* Style for the dropdown container */
+.dropdown {
+    position: relative;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/* Style for the input field */
+.dropdown-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Apply font to input text */
+}
+
+/* Style for the placeholder text */
+.dropdown-input::placeholder {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Apply font family to placeholder */
+    color: #aaa; /* Optional: Change the color of the placeholder */
+}
+
+/* Style for the list */
+.dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+    z-index: 1;
+}
+
+.dropdown-item {
+    list-style-type: none;
+}
+
+.dropdown-item a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.dropdown-item a:hover {
+    background-color: #f0f0f0;
+}
+
+#searchInput:focus + #courseList {
+    display: block;
 }
 
 @media (max-width: 768px) {

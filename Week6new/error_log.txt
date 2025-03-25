@@ -439,3 +439,333 @@ Stack trace:
 [20-Mar-2025 19:42:12 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
 [20-Mar-2025 19:42:12 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
 [20-Mar-2025 19:42:12 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[21-Mar-2025 04:25:10 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[21-Mar-2025 04:25:10 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[21-Mar-2025 04:25:10 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[21-Mar-2025 04:25:10 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[24-Mar-2025 19:20:17 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[24-Mar-2025 19:20:17 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[24-Mar-2025 19:20:17 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[24-Mar-2025 19:20:17 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[24-Mar-2025 20:38:42 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[24-Mar-2025 20:38:42 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[24-Mar-2025 20:38:42 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[24-Mar-2025 20:38:42 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[24-Mar-2025 21:18:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function validateCookie() in D:\Winter2024\CP476\Apache24\phpfiles\Project\grades.php:7
+Stack trace:
+#0 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\grades.php on line 7
+[24-Mar-2025 21:18:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function validateCookie() in D:\Winter2024\CP476\Apache24\phpfiles\Project\grades.php:7
+Stack trace:
+#0 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\grades.php on line 7
+[24-Mar-2025 21:43:20 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[24-Mar-2025 21:43:20 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[24-Mar-2025 21:43:20 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[24-Mar-2025 21:43:20 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[24-Mar-2025 21:44:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function validateCookie() in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php:6
+Stack trace:
+#0 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 6
+[24-Mar-2025 21:50:31 UTC] PHP Warning:  Undefined variable $logged_in_options in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 39
+[24-Mar-2025 22:00:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getAllClasses() in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php:4
+Stack trace:
+#0 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 4
+[24-Mar-2025 22:01:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UNIQUE course_code FROM coursetable ORDER BY course_code ASC' at line 1 in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:113
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php(113): mysqli->query('SELECT UNIQUE c...')
+#1 D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php(5): getAllClasses()
+#2 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 113
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:04 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:13:55 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 20
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:14:13 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:15:17 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:16:26 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:18:29 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 21
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:19:14 UTC] PHP Warning:  Undefined array key "class_name" in D:\Winter2024\CP476\Apache24\phpfiles\Project\index.php on line 18
+[24-Mar-2025 22:23:19 UTC] PHP Parse error:  syntax error, unexpected string content "" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 37
+[24-Mar-2025 22:23:20 UTC] PHP Parse error:  syntax error, unexpected string content "" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 37
+[24-Mar-2025 23:28:07 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[24-Mar-2025 23:28:07 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[24-Mar-2025 23:28:07 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[24-Mar-2025 23:28:07 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[24-Mar-2025 23:28:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function validateCookie() in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php:6
+Stack trace:
+#0 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 6
+[24-Mar-2025 23:33:16 UTC] PHP Parse error:  Unclosed '{' on line 127 in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 150
+[24-Mar-2025 23:33:18 UTC] PHP Parse error:  Unclosed '{' on line 127 in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 150
+[24-Mar-2025 23:33:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getHeader() in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php:9
+Stack trace:
+#0 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 9
+[24-Mar-2025 23:34:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function closeConnection() in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php:58
+Stack trace:
+#0 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 58
+[24-Mar-2025 23:57:16 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[24-Mar-2025 23:57:16 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[24-Mar-2025 23:57:16 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[24-Mar-2025 23:57:16 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:12:02 UTC] PHP Warning:  Undefined variable $conn in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 157
+[25-Mar-2025 00:12:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:157
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(31): resetPassword('1234', '12345')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 157
+[25-Mar-2025 00:13:08 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:13:08 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:13:08 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:13:08 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:13:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: password_hash() expects at least 2 arguments, 1 given in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:164
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php(164): password_hash(Object(SensitiveParameterValue))
+#1 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(31): resetPassword('1234', '12345')
+#2 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 164
+[25-Mar-2025 00:20:37 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:20:37 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:20:37 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:20:37 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:20:44 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:20:44 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:20:44 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:20:44 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:20:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: password_hash() expects at least 2 arguments, 1 given in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php:32
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(32): password_hash(Object(SensitiveParameterValue))
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 32
+[25-Mar-2025 00:21:34 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:21:34 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:21:34 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:21:34 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:21:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: password_hash() expects at least 2 arguments, 1 given in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php:32
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(32): password_hash(Object(SensitiveParameterValue))
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 32
+[25-Mar-2025 00:25:01 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:25:01 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:25:01 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:25:01 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:25:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: password_hash() expects at least 2 arguments, 1 given in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php:34
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(34): password_hash(Object(SensitiveParameterValue))
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 34
+[25-Mar-2025 00:26:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: password_hash() expects at least 2 arguments, 1 given in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php:35
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(35): password_hash(Object(SensitiveParameterValue))
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 35
+[25-Mar-2025 00:26:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: password_hash() expects at least 2 arguments, 1 given in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php:35
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(35): password_hash(Object(SensitiveParameterValue))
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 35
+[25-Mar-2025 00:27:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: password_hash() expects at least 2 arguments, 1 given in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php:35
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(35): password_hash(Object(SensitiveParameterValue))
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 35
+[25-Mar-2025 00:28:37 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:28:37 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:28:37 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:28:37 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:28:49 UTC] PHP Fatal error:  Uncaught TypeError: resetPassword(): Return value must be of type bool, none returned in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:174
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(37): resetPassword('$2y$10$y2K1Bhux...', '$2y$10$LjCUhuVU...')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 174
+[25-Mar-2025 00:30:41 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:30:41 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:30:41 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:30:41 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:30:52 UTC] PHP Fatal error:  Uncaught TypeError: resetPassword(): Return value must be of type bool, none returned in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:174
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(37): resetPassword('$2y$10$jAQaE6Hj...', '$2y$10$rilXHQBW...')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 174
+[25-Mar-2025 00:32:57 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "");</script>", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 160
+[25-Mar-2025 00:33:45 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "");</script>", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 160
+[25-Mar-2025 00:33:59 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "");</script>", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 160
+[25-Mar-2025 00:34:53 UTC] PHP Fatal error:  Uncaught TypeError: resetPassword(): Return value must be of type bool, none returned in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:174
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(37): resetPassword('$2y$10$g4sXzI90...', '$2y$10$MbY6Ms7R...')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 174
+[25-Mar-2025 00:37:49 UTC] PHP Fatal error:  Uncaught TypeError: resetPassword(): Return value must be of type bool, none returned in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:174
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(40): resetPassword('$2y$10$xX/CBp.9...', '$2y$10$0RE9mnTN...')
+#1 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 174
+[25-Mar-2025 00:42:32 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:42:32 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:42:32 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:42:32 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:42:39 UTC] PHP Warning:  Undefined variable $oldhashed in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 35
+[25-Mar-2025 00:42:39 UTC] PHP Warning:  Undefined variable $newhashed in D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php on line 35
+[25-Mar-2025 00:42:39 UTC] PHP Fatal error:  Uncaught TypeError: password_verify(): Argument #1 ($password) must be of type string, null given in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php:161
+Stack trace:
+#0 D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php(161): password_verify(Object(SensitiveParameterValue), '$2y$10$sPRcPtjK...')
+#1 D:\Winter2024\CP476\Apache24\phpfiles\Project\reset_pass.php(35): resetPassword(NULL, NULL)
+#2 {main}
+  thrown in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 161
+[25-Mar-2025 00:45:29 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:45:29 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:45:29 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:45:29 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:46:50 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:46:50 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:46:50 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:46:50 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:48:05 UTC] PHP Parse error:  syntax error, unexpected identifier "UPDATE", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 162
+[25-Mar-2025 00:48:09 UTC] PHP Parse error:  syntax error, unexpected identifier "UPDATE", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\DAL.php on line 162
+[25-Mar-2025 00:53:30 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:53:30 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:53:30 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:53:30 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:53:45 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:53:45 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:53:45 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:53:45 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:54:00 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:54:00 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:54:00 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:54:00 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:55:56 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:55:56 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:55:56 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:55:56 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:56:14 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:56:14 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:56:14 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:56:14 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:56:29 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:56:29 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 71
+[25-Mar-2025 00:56:29 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 00:56:29 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72

@@ -106,3 +106,55 @@ function validateInputs(...$inputs) {
     return $sanitizedInputs;
 }
 
+function getAllClasses(): array {
+    $conn = OpenConnection();
+
+    $sql = "SELECT DISTINCT course_code FROM coursetable ORDER BY course_code ASC";
+    $result = $conn->query($sql);
+
+    $classes = [];
+
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            $classes[] = $row;
+        }
+    }
+
+    $conn->close();
+    return $classes;
+}
+
+function validateCookie(): bool {
+    if (!isset($_COOKIE['user_id']) || empty($_COOKIE['user_id'])) {
+        return header('Location: login.php');
+    }
+
+    $user_id = $_COOKIE['user_id'];
+
+    $conn = OpenConnection();
+
+    // Prepare a query to check if the user exists in the database
+    $stmt = $conn->prepare("SELECT * FROM users WHERE user_id = ?");
+    $stmt->bind_param("i", $user_id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result->num_rows === 0) {
+        echo "<script>alert('User not found. Please log in again.');</script>";
+        return false;
+    }
+    $stmt->close();
+
+    return true;  // User is valid
+}
+function resetPassword($newPassword, $id): bool {
+    $hashedPassword = password_hash($newPassword, PASSWORD_DEFAULT);
+    $conn = OpenConnection();
+    $stmt = $conn->prepare("UPDATE users SET password_hash = ? WHERE user_id = ?");
+    $stmt->bind_param("si", $hashedPassword, $id);
+    $stmt->execute();
+    $stmt->close();
+    echo '<script>alert("Password Reset Successfully");</script>';
+    header('Location: index.php');
+    exit();
+}

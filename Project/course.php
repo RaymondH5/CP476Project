@@ -4,20 +4,15 @@ declare(strict_types=1);
 
 require 'DAL.php';
 
-validateCookie(); // Check if the user is logged in
+validateCookie();
 
-// Get student information from the cookie and sanitize it
 $id = (int)htmlspecialchars($_COOKIE['id']);
 
-// Get the student's grades from the database
 $grades = getGrades($id);
 closeConnection();
 
-// Add Header
 include 'header.php';
-echo getHeader('Grades');
 
-// Display the student's grades
 echo "Student ID: " . $id . "<br>";
 echo "Name: " . $_COOKIE['firstName'] . " " . $_COOKIE['lastName'] . "<br><br>";
 foreach ($grades as $grade) {
@@ -31,7 +26,6 @@ foreach ($grades as $grade) {
 }
 echo "<hr>";
 
-// Add Footer
 include 'footer.php';
 
 ?>

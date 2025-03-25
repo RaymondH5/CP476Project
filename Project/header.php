@@ -15,14 +15,9 @@ $lastName = $_COOKIE['last_name'];
 // Set title and navigation options
 $title = "Student Website";
 $login_logout = '<li><a href="logout.php">Logout</a></li>';
-$logged_in_options = '
-    <li><a href="grades.php">Grades</a></li>
-    <li><a href="classList.php">Class List</a></li>
-    <li><a href="dropOut.php">Drop Out</a></li>
-    <li><a href="reset_pass.php">Reset Password</a></li>
-';
+$reset_pass = '<li><a href="reset_pass.php">Reset Password</a></li>';
 
-$user_details = '<li class="user-details"><a> ' . $firstName . ' ' . $lastName . '</a></li>';
+$user_details = '<li class="user-details"><strong>' . $firstName . ' ' . $lastName . '</strong></li>';
 
 
 echo '<!DOCTYPE html>
@@ -36,13 +31,12 @@ echo '<!DOCTYPE html>
     </style>
 </head>
 <body>
-
     <!-- Navigation Bar -->
     <header>
         <nav class="navbar">
             <div class="logo"><a href="index.php">' . $title . '</a></div>
             <ul class="nav-links">
-                ' . $logged_in_options . $login_logout . $user_details . '
+                ' . $user_details . $login_logout . $reset_pass . '
             </ul>
             <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
         </nav>
