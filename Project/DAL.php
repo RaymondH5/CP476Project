@@ -1,9 +1,7 @@
 <?php
-
 declare(strict_types=1);
 
 function OpenConnection() {
-
     $envPath = dirname(__DIR__) . '/.env';
     if (!file_exists($envPath)) {
         die("<script>alert(Error: .env file not found at $envPath);</script>");
@@ -33,18 +31,13 @@ function OpenConnection() {
     return $conn;
 }
 
-
 function loginUser($username) {
-
     $conn = OpenConnection();
-
     $stmt = $conn->prepare("SELECT * FROM users WHERE username = ?");
-
     $stmt->bind_param("s", $username);
     $stmt->execute();
     $result = $stmt->get_result();
 
-    // Ensure that the user exists
     if ($result->num_rows === 0) {
         die("Invalid user id");
     }
@@ -66,15 +59,13 @@ function loginUser($username) {
 }
 
 function registerUser($username, $email, $password_hash, $first_name, $last_name) {
-
     $conn = OpenConnection();
-
     $stmt = $conn->prepare("INSERT INTO users (username, email, password_hash, first_name, last_name) VALUES (?, ?, ?, ?, ?)");
 
     if (!$stmt) {
         error_log("Error executing statement: " . $conn->error . " SQL: " . $conn->query);
         echo "<script>alert(Error: " . $conn->error. ");</script>";
-        return false;  // Early exit if preparing fails
+        return false;
     }
 
     $stmt->bind_param("sssss", $username, $email, $password_hash, $first_name, $last_name);
@@ -87,7 +78,6 @@ function registerUser($username, $email, $password_hash, $first_name, $last_name
     }
     
     $stmt->close();
-
     return $success;
 }
 
@@ -108,10 +98,8 @@ function validateInputs(...$inputs) {
 
 function getAllClasses(): array {
     $conn = OpenConnection();
-
     $sql = "SELECT DISTINCT course_code FROM coursetable ORDER BY course_code ASC";
     $result = $conn->query($sql);
-
     $classes = [];
 
     if ($result->num_rows > 0) {
@@ -130,10 +118,7 @@ function validateCookie(): bool {
     }
 
     $user_id = $_COOKIE['user_id'];
-
     $conn = OpenConnection();
-
-    // Prepare a query to check if the user exists in the database
     $stmt = $conn->prepare("SELECT * FROM users WHERE user_id = ?");
     $stmt->bind_param("i", $user_id);
     $stmt->execute();
@@ -144,9 +129,9 @@ function validateCookie(): bool {
         return false;
     }
     $stmt->close();
-
-    return true;  // User is valid
+    return true;
 }
+
 function resetPassword($newPassword, $id): bool {
     $hashedPassword = password_hash($newPassword, PASSWORD_DEFAULT);
     $conn = OpenConnection();
@@ -157,4 +142,85 @@ function resetPassword($newPassword, $id): bool {
     echo '<script>alert("Password Reset Successfully");</script>';
     header('Location: index.php');
     exit();
+}
+
+function getStudentsInCourse($courseCode): array {
+    $conn = OpenConnection();
+    
+    $sql = "SELECT n.student_id, n.full_name, 
+            c.midterm_score, c.final_exam_score, c.project_score, c.total_score
+            FROM nametable n 
+            JOIN coursetable c ON n.student_id = c.student_id 
+            WHERE c.course_code = ?
+            ORDER BY n.full_name";
+            
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("s", $courseCode);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    
+    $students = [];
+    while ($row = $result->fetch_assoc()) {
+        $students[] = $row;
+    }
+    
+    $stmt->close();
+    $conn->close();
+    return $students;
+}
+
+function getAllStudents(): array {
+    $conn = OpenConnection();
+    
+    $sql = "SELECT student_id, full_name FROM nametable ORDER BY full_name";
+    $result = $conn->query($sql);
+    
+    $students = [];
+    while ($row = $result->fetch_assoc()) {
+        $students[] = $row;
+    }
+    
+    $conn->close();
+    return $students;
+}
+
+function addStudentToCourse($studentId, $courseCode): bool {
+    $conn = OpenConnection();
+    
+    // First check if the student is already in the course
+    $checkSql = "SELECT 1 FROM coursetable WHERE student_id = ? AND course_code = ?";
+    $checkStmt = $conn->prepare($checkSql);
+    $checkStmt->bind_param("is", $studentId, $courseCode);
+    $checkStmt->execute();
+    $result = $checkStmt->get_result();
+    
+    if ($result->num_rows > 0) {
+        $checkStmt->close();
+        $conn->close();
+        return false; // Student already in course
+    }
+    
+    // Add student to course with initial scores of 0
+    $sql = "INSERT INTO coursetable (student_id, course_code, midterm_score, final_exam_score, project_score, total_score) 
+            VALUES (?, ?, 0, 0, 0, 0)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("is", $studentId, $courseCode);
+    $success = $stmt->execute();
+    
+    $stmt->close();
+    $conn->close();
+    return $success;
+}
+
+function removeStudentFromCourse($studentId, $courseCode): bool {
+    $conn = OpenConnection();
+    
+    $sql = "DELETE FROM coursetable WHERE student_id = ? AND course_code = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("is", $studentId, $courseCode);
+    $success = $stmt->execute();
+    
+    $stmt->close();
+    $conn->close();
+    return $success;
 }

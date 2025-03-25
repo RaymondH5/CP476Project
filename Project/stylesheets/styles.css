@@ -6,15 +6,15 @@
 
 body, html {
     width: 100%;
-    overflow-x: hidden; /* This will disable horizontal scrolling */
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Modern and clean */
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #f0f0f0;
-    color: #333; /* Set text color to dark gray */
+    color: #333;
 }
 
 .content {
@@ -22,8 +22,8 @@ body, html {
 }
 
 .user-details {
-    font-weight: bold; /* Makes text bold */
-    color: orange; /* Ensures text is black */
+    font-weight: bold;
+    color: orange;
 }
 
 footer {
@@ -32,9 +32,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    margin-top: auto;
 }
 
 .navbar {
@@ -79,10 +78,10 @@ footer {
 
 .hero {
     background: url('../stylesheets/Death_to_stock_communicate_hands_1.webp') center/cover no-repeat;
-    background-size: cover; /* Ensures the image covers the area */
-    background-position: center center; /* Keeps the image centered */
-    height: auto; /* Adjust height to fit the content */
-    min-height: 90vh; /* Sets a minimum height to maintain the appearance */
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,9 +90,24 @@ footer {
     padding: 20px;
 }
 
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
 .hero-content h1 {
     font-size: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-content h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: white;
 }
 
 .hero-content p {
@@ -101,119 +115,6 @@ footer {
     margin-bottom: 20px;
 }
 
-.hero-content .cta-button {
-    display: inline-block;
-    background-color: #ff6600;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin-top: 10px;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.hero-content .cta-button:hover {
-    background-color: #cc5200;
-}
-
-#searchCourses {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#courseDropdown {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.social-icons .icon {
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.copyright {
-    text-align: center;
-    background-color: #111;
-    color: white;
-    padding: 10px;
-}
-
-.full-screen-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.form-container {
-    background: #fff;
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-}
-
-form h1 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 24px;
-    color: #333;
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
-
-.input-group button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #ff6600; /* Match with hero button color */
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.input-group button:hover {
-    background-color: #cc5200; /* Darker shade on hover */
-}
-
-.signup-link {
-    font-size: 14px;
-    font-weight: bold;
-    color: #ff6600; /* Match the button color */
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.signup-link:hover {
-    color: #cc5200; /* Darker color for hover */
-    text-decoration: underline;
-}
-
-p {
-    text-align: center;
-    font-size: 14px;
-    color: #555; /* Lighter color for the text */
-}
-
-/* Style for the dropdown container */
 .dropdown {
     position: relative;
     width: 80%;
@@ -221,7 +122,6 @@ p {
     margin: 20px auto;
 }
 
-/* Style for the input field */
 .dropdown-input {
     width: 100%;
     padding: 12px;
@@ -229,49 +129,127 @@ p {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Apply font to input text */
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: white;
+    color: #333;
 }
 
-/* Style for the placeholder text */
 .dropdown-input::placeholder {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Apply font family to placeholder */
-    color: #aaa; /* Optional: Change the color of the placeholder */
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: #aaa;
 }
 
-/* Style for the list */
 .dropdown-list {
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    max-height: 200px;
+    max-height: 300px;
     overflow-y: auto;
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    display: none; /* Initially hidden */
-    z-index: 1;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none;
+}
+
+.dropdown-list:hover,
+.dropdown-input:focus + .dropdown-list {
+    display: block;
 }
 
 .dropdown-item {
     list-style-type: none;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
 }
 
 .dropdown-item a {
     display: block;
-    padding: 10px;
+    padding: 12px 15px;
     text-decoration: none;
     color: #333;
     font-size: 16px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    transition: background-color 0.2s;
 }
 
 .dropdown-item a:hover {
-    background-color: #f0f0f0;
+    background-color: #f5f5f5;
+    color: #ff6600;
 }
 
-#searchInput:focus + #courseList {
+.course-link {
+    color: #333;
+    text-decoration: none;
     display: block;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.course-link:hover {
+    background-color: #f0f0f0;
+    color: #ff6600;
+}
+
+.full-screen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-group button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.input-group button:hover {
+    background-color: #cc5200;
+}
+
+.signup-link {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.signup-link:hover {
+    color: #cc5200;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -284,6 +262,7 @@ p {
         top: 50px;
         left: 0;
         padding: 10px;
+        z-index: 1000;
     }
 
     .nav-links.active {
@@ -292,5 +271,21 @@ p {
 
     .hamburger {
         display: block;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-content h3 {
+        font-size: 20px;
+    }
+
+    .dropdown {
+        width: 90%;
     }
 }
