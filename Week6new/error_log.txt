@@ -805,3 +805,34 @@ Stack trace:
 [25-Mar-2025 22:12:01 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
 [25-Mar-2025 22:12:01 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
 [25-Mar-2025 22:12:01 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[25-Mar-2025 22:15:51 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 22:15:51 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[25-Mar-2025 22:15:51 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[25-Mar-2025 22:15:51 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[26-Mar-2025 16:06:26 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[26-Mar-2025 16:06:26 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 72
+[26-Mar-2025 16:06:26 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[26-Mar-2025 16:06:26 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 73
+[26-Mar-2025 17:17:20 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 79
+[26-Mar-2025 17:17:20 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 79
+[26-Mar-2025 17:17:20 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 80
+[26-Mar-2025 17:17:20 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 80
+[26-Mar-2025 17:19:54 UTC] PHP Parse error:  syntax error, unexpected identifier "stylesheets", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 28
+[26-Mar-2025 17:22:46 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ";", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 90
+[26-Mar-2025 17:22:59 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ";", expecting "," or ";" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 90
+[26-Mar-2025 17:26:29 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 112
+[26-Mar-2025 17:26:29 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 112
+[26-Mar-2025 17:26:29 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 113
+[26-Mar-2025 17:26:29 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 113
+[26-Mar-2025 17:26:35 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 112
+[26-Mar-2025 17:26:35 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 112
+[26-Mar-2025 17:26:35 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 113
+[26-Mar-2025 17:26:35 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 113
+[26-Mar-2025 17:31:57 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[26-Mar-2025 17:31:57 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 74
+[26-Mar-2025 17:31:57 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
+[26-Mar-2025 17:31:57 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
+[26-Mar-2025 17:37:26 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
+[26-Mar-2025 17:37:26 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
+[26-Mar-2025 17:37:26 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 76
+[26-Mar-2025 17:37:26 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 76

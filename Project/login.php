@@ -27,26 +27,29 @@ echo '
             <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
         </nav>
     </header>
-    <div class="full-screen-container hero">
-        <div class="form-container">
-            <form id="login_form" method="post">
-                <h1 style="color: black;">Login</h1>
-                <br>
-                <div class="input-group">
-                    <input type="text" id="username" name="username" placeholder="Username" required>
+    <main>
+        <section class="hero">
+                <div class="full-screen-container">
+                    <div class="form-container">
+                        <form id="login_form" method="post">
+                            <h1 style="color: black;">Login</h1>
+                            <br>
+                            <div class="input-group">
+                                <input type="text" id="username" name="username" placeholder="Username" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" id="password" name="password" placeholder="Password" required>
+                            </div>
+                            <div class="input-group">
+                                <button id="button_login" class="center">Login</button>
+                            </div>
+                            <p> Don\'t have an account?</p>
+                            <a class="signup-link" href="register.php">Register here</a>
+                        </form>
+                    </div>
                 </div>
-                <div class="input-group">
-                    <input type="password" id="password" name="password" placeholder="Password" required>
-                </div>
-                <div class="input-group">
-                    <button id="button_login" class="center">Login</button>
-                </div>
-
-                <p> Don\'t have an account?</p>
-                <a class="signup-link" href="register.php">Register here</a>
-            </form>
-        </div>
-    </div>
+        </section>
+    <main>
     <div class="wrapper">
         <div class="content">
             <!-- Main page content goes here -->

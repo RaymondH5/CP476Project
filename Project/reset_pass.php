@@ -6,24 +6,27 @@ require 'DAL.php';
 include 'header.php';
 
 ?>
-<div class="full-screen-container hero">
-    <div class="form-container">
-        <form id="login_form" method="post">
-            <h1 style="color: black;">Reset your password</h1>
-            <br>
-            <div class="input-group">
-                <input type="password" id="old_password" name="old_password" placeholder="Old password" required>
+<main>
+    <section class="hero">
+        <div class="full-screen-container">
+            <div class="form-container">
+                <form id="login_form" method="post">
+                    <h1 style="color: black;">Reset your password</h1>
+                    <br>
+                    <div class="input-group">
+                        <input type="password" id="old_password" name="old_password" placeholder="Old password" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="new_password" name="new_password" placeholder="New Password" required>
+                    </div>
+                    <div class="input-group">
+                        <button id="button_login" class="center">Reset</button>
+                    </div>
+                </form>
             </div>
-            <div class="input-group">
-                <input type="password" id="new_password" name="new_password" placeholder="New Password" required>
-            </div>
-            <div class="input-group">
-                <button id="button_login" class="center">Reset</button>
-            </div>
-        </form>
-    </div>
-</div>
-
+        </div>
+    </section>
+<main>
 <?php
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST'){
