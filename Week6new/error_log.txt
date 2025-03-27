@@ -957,3 +957,13 @@ Stack trace:
 [27-Mar-2025 02:12:40 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
 [27-Mar-2025 02:12:40 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 76
 [27-Mar-2025 02:12:40 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 76
+[27-Mar-2025 03:55:25 UTC] PHP Parse error:  syntax error, unexpected variable "$delete_account" in D:\Winter2024\CP476\Apache24\phpfiles\Project\header.php on line 17
+[27-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
+[27-Mar-2025 03:56:10 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
+[27-Mar-2025 03:56:10 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 76
+[27-Mar-2025 03:56:10 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 76
+[27-Mar-2025 03:56:54 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in D:\Winter2024\CP476\Apache24\phpfiles\Project\delete_account.php on line 6
+[27-Mar-2025 03:57:43 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
+[27-Mar-2025 03:57:43 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
+[27-Mar-2025 03:57:43 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 76
+[27-Mar-2025 03:57:43 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 76

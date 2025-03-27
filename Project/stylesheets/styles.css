@@ -149,9 +149,7 @@ footer {
 
 .specialDropdown::placeholder {
     font-size: 22px;
-    /* Bigger text */
     font-weight: bold;
-    /* Bolder text */
     color: black;
     text-align: center;
 }
@@ -201,8 +199,8 @@ footer {
 
 .student-dropdown {
     max-height: 300px;
-    width: 100%; /* Make it fill its container */
-    margin: 10px 0; /* Adjust margins */
+    width: 100%;
+    margin: 10px 0;
 }
 
 .student-dropdown .dropdown-input {

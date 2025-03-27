@@ -271,3 +271,15 @@ function updateStudentGrades($courseCode, $studentId, $testOne, $testTwo, $testT
     
     return $success;
 }
+
+function deleteAccount($id){
+    $conn = OpenConnection();
+    
+    $sql = "DELETE FROM users WHERE user_id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $id);
+    $success = $stmt->execute();
+    $stmt->close();
+    $conn->close();
+    return header('Location: login.php');
+}

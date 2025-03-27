@@ -8,7 +8,6 @@ if (empty($courseCode)) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Store messages in session to show after redirect
     session_start();
     
     if (isset($_POST['students']) && is_array($_POST['students'])) {
@@ -43,7 +42,6 @@ $students = getStudentsInCourse($courseCode);
 $allStudents = getAllStudents();
 include 'header.php';
 
-// Show messages from session if they exist
 if (isset($_SESSION['message'])) {
     $message = $_SESSION['message'];
     echo "<script>alert('Successfully updated {$message['success']} records. Failed to update {$message['error']} records.');</script>";
