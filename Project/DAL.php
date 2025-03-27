@@ -96,6 +96,26 @@ function validateInputs(...$inputs) {
     return $sanitizedInputs;
 }
 
+function validateGradeInputs(array $grades): array {
+    $sanitized = [];
+    
+    foreach ($grades as $key => $value) {
+        if ($value === null || $value === '') {
+            $sanitized[$key] = null;
+            continue;
+        }
+        
+        $value = (int)$value;
+        if ($value < 0 || $value > 100) {
+            return false;
+        }
+        
+        $sanitized[$key] = $value;
+    }
+    
+    return $sanitized;
+}
+
 function getAllClasses(): array {
     $conn = OpenConnection();
     $sql = "SELECT DISTINCT course_code FROM coursetable ORDER BY course_code ASC";
@@ -128,8 +148,8 @@ function getStudentsInCourse($courseCode): array {
     $conn = OpenConnection();
     
     $sql = "SELECT n.student_id, n.full_name, 
-            c.midterm_score, c.final_exam_score, c.project_score, c.total_score
-            FROM nametable n 
+            c.test_one, c.test_two, c.test_three, c.final_exam
+            FROM nametable n
             JOIN coursetable c ON n.student_id = c.student_id 
             WHERE c.course_code = ?
             ORDER BY n.full_name";
@@ -138,11 +158,18 @@ function getStudentsInCourse($courseCode): array {
     $stmt->bind_param("s", $courseCode);
     $stmt->execute();
     $result = $stmt->get_result();
-    
     $students = [];
     while ($row = $result->fetch_assoc()) {
+
+        $finalGrade = ($row['test_one'] * 0.2) + 
+                     ($row['test_two'] * 0.2) + 
+                     ($row['test_three'] * 0.2) + 
+                     ($row['final_exam'] * 0.4);
+
+        $row['final_grade'] = number_format($finalGrade, 1, '.', '');
         $students[] = $row;
     }
+    
     
     $stmt->close();
     $conn->close();
@@ -166,8 +193,6 @@ function getAllStudents(): array {
 
 function addStudentToCourse($studentId, $courseCode): bool {
     $conn = OpenConnection();
-    
-    // First check if the student is already in the course
     $checkSql = "SELECT 1 FROM coursetable WHERE student_id = ? AND course_code = ?";
     $checkStmt = $conn->prepare($checkSql);
     $checkStmt->bind_param("is", $studentId, $courseCode);
@@ -177,11 +202,10 @@ function addStudentToCourse($studentId, $courseCode): bool {
     if ($result->num_rows > 0) {
         $checkStmt->close();
         $conn->close();
-        return false; // Student already in course
+        return false;
     }
     
-    // Add student to course with initial scores of 0
-    $sql = "INSERT INTO coursetable (student_id, course_code, midterm_score, final_exam_score, project_score, total_score) 
+    $sql = "INSERT INTO coursetable (student_id, course_code, test_one, test_two, test_three, final_exam) 
             VALUES (?, ?, 0, 0, 0, 0)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("is", $studentId, $courseCode);
@@ -202,5 +226,48 @@ function removeStudentFromCourse($studentId, $courseCode): bool {
     
     $stmt->close();
     $conn->close();
+    return $success;
+}
+
+function updateStudentGrades($courseCode, $studentId, $testOne, $testTwo, $testThree, $finalExam): bool {
+    $conn = OpenConnection();
+    
+    $testOne = $testOne ?? 0;
+    $testTwo = $testTwo ?? 0;
+    $testThree = $testThree ?? 0;
+    $finalExam = $finalExam ?? 0;
+    
+    $sql = "UPDATE coursetable SET 
+            test_one = ?, 
+            test_two = ?, 
+            test_three = ?, 
+            final_exam = ? 
+            WHERE student_id = ? AND course_code = ?";
+            
+    $stmt = $conn->prepare($sql);
+    if (!$stmt) {
+        error_log("Prepare failed: " . $conn->error);
+        $conn->close();
+        return false;
+    }
+    
+    $stmt->bind_param("iiiiis", 
+        $testOne, 
+        $testTwo, 
+        $testThree, 
+        $finalExam, 
+        $studentId, 
+        $courseCode
+    );
+    
+    $success = $stmt->execute();
+    
+    if (!$success) {
+        error_log("Execute failed: " . $stmt->error);
+    }
+    
+    $stmt->close();
+    $conn->close();
+    
     return $success;
 }

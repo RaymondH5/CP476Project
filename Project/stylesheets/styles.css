@@ -147,12 +147,21 @@ footer {
     color: #aaa
 }
 
+.specialDropdown::placeholder {
+    font-size: 22px;
+    /* Bigger text */
+    font-weight: bold;
+    /* Bolder text */
+    color: black;
+    text-align: center;
+}
+
 .dropdown-list {
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    max-height: 300px;
+    max-height: 120px;
     overflow-y: auto;
     background-color: white;
     border: 1px solid #ccc;
@@ -188,6 +197,83 @@ footer {
 .dropdown-item a:hover {
     background-color: #f5f5f5;
     color: #ff6600
+}
+
+.student-dropdown {
+    max-height: 300px;
+    width: 100%; /* Make it fill its container */
+    margin: 10px 0; /* Adjust margins */
+}
+
+.student-dropdown .dropdown-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #fff;
+    color: #333;
+    transition: border 0.3s ease;
+}
+
+.student-dropdown .dropdown-input:focus {
+    border-color: #007bff;
+}
+
+.student-dropdown .dropdown-input::placeholder {
+    color: #aaa;
+}
+
+.student-dropdown .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 50px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none;
+    width: calc(100% - 2px);
+    box-sizing: border-box; 
+}
+
+.student-dropdown .dropdown-input:focus+.dropdown-list,
+.student-dropdown .dropdown-list:hover {
+    display: block;
+}
+
+.student-dropdown .dropdown-item {
+    padding: 12px 15px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.student-dropdown .dropdown-item:hover {
+    background-color: #f1f1f1;
+    color: #007bff;
+}
+
+.student-dropdown .dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.student-dropdown .dropdown-item.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.student-dropdown .dropdown-input {
+    margin-bottom: 10px;
 }
 
 .course-link {
@@ -352,6 +438,41 @@ footer {
 .signup-link:hover {
     color: #cc5200;
     text-decoration: underline
+}
+
+.btn-edit-grades {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-edit-grades:hover {
+    background-color: #f57c00;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.fas {
+    font-size: 14px;
+}
+
+.grade-input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
 }
 
 @media (max-width:768px) {
