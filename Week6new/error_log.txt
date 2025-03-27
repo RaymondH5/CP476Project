@@ -953,3 +953,7 @@ Stack trace:
 [27-Mar-2025 01:33:08 UTC] PHP Warning:  Undefined variable $testTwo in D:\Winter2024\CP476\Apache24\phpfiles\Project\edit_grades.php on line 18
 [27-Mar-2025 01:33:08 UTC] PHP Warning:  Undefined variable $testThree in D:\Winter2024\CP476\Apache24\phpfiles\Project\edit_grades.php on line 18
 [27-Mar-2025 01:33:08 UTC] PHP Warning:  Undefined variable $finalExam in D:\Winter2024\CP476\Apache24\phpfiles\Project\edit_grades.php on line 18
+[27-Mar-2025 02:12:40 UTC] PHP Warning:  Undefined array key "username" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
+[27-Mar-2025 02:12:40 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 75
+[27-Mar-2025 02:12:40 UTC] PHP Warning:  Undefined array key "email" in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 76
+[27-Mar-2025 02:12:40 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\Winter2024\CP476\Apache24\phpfiles\Project\login.php on line 76

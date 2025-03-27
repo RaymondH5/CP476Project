@@ -152,7 +152,7 @@ function getStudentsInCourse($courseCode): array {
             FROM nametable n
             JOIN coursetable c ON n.student_id = c.student_id 
             WHERE c.course_code = ?
-            ORDER BY n.full_name";
+            ORDER BY n.student_id ASC";
             
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $courseCode);
